@@ -1,0 +1,11 @@
+# Lambda function dependencies
+# Install with: pip install -r requirements_lambda.txt -t .
+
+# For log_streamer.py
+python-dateutil==2.8.2
+
+# For all Lambda functions
+boto3>=1.34.0
+
+# Note: boto3 is included in Lambda runtime by default,
+# but we specify it for local testing
