@@ -1,0 +1,22 @@
+```
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# AWS
+*.zip
+
+# Secrets
+*.pem
+*.key
+
+# Generated files
+rca_report_*.md
+stepfunctions_output.json
+
+# Logs (except sample)
+*.log
+!errors_json_native.log
+```
